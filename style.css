@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(212, 203, 203);
+}
+
+.menu-bar{
+    background-color: black;
+    display: flex;
+    justify-content: end;  
+    padding: 8px;
+    position: fixed;
+    width: 1325px;
+ 
+}
+.menu-bar a{
+    color: white;
+    text-decoration: none;
+    padding-left: 45px;
+   
+}
+.menu-bar a:hover{
+    color: red;
+}
+.product-container{
+    background-color: white;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image1{
+    width: 380px;
+    margin: 15px;
+}
+.promo-code{
+    background-color: rgb(202, 238, 144);
+    width: 280px;
+    margin-left: 50px;
+    margin-top: 15px;
+    padding: 7px;
+    border: 1px solid green;
+    text-align: center;
+}
+.row1{
+    display: flex;
+}
+.product-detail{
+    margin-right: 15px;
+}
+.img{
+    width: 105px;
+}
+.imag3{
+    height: 100px;
+    
+}
+.related-product{
+    background-color: burlywood;
+    width: 160px;
+    border: 1px black solid;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+
+
+.related-product-name{
+    background-color: black;
+    color: white;
+    padding:5px;
+    margin-left: 26px;
+    width: 98px;
+}
+
+
+.row2{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+.related-heading{
+    margin-left: 15px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: small;
+    padding: 7px;
+    margin-top: 0;
+   
+}
+.main-photo{
+    width: 780px;
+    margin-left: 10px;
+}
+.text{
+    margin-left: 10px;
+}
+.third{
+    width: 100px;
+}
+.second{
+    width: 100px;
+}
+.first{
+    width: 100px;
+    height: 100px;
+}
+.members{
+    display: flex;
+    justify-content: space-between;
+}
+.para{
+    font-size: small;
+}
+
+.member{
+    border-radius: 50%;
+}
